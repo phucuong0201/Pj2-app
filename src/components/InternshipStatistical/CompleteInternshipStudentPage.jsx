@@ -9,7 +9,7 @@ const CompleteInternshipStudentPage = React.createClass({
       <div className="container">
         <h5 className="title"><i className="fa fa-thumbs-up"></i> Completed Student</h5>
         <div className="container-fluid">
-          <div className="panel-heading">
+          {/*<div className="panel-heading">*/}
             <div className="col-md-6 search_user">
               <div className="col-md-6 search_label">
                 <span>
@@ -20,9 +20,9 @@ const CompleteInternshipStudentPage = React.createClass({
                 <span><button type="button" className="btn btn-primary"><i className="fa fa-search"></i></button></span>
               </div>
             </div>
-          </div>
+          {/*</div>*/}
           <div className="panel panel-body">
-            <div className="row">
+            {/*<div className="row">*/}
               <table className="student_table">
                 <tr>
                   <th className="col-md-2">Student Name</th>
@@ -34,7 +34,7 @@ const CompleteInternshipStudentPage = React.createClass({
                   <th className="col-md-1">End</th>
                 </tr>
               </table>
-            </div>
+            {/*</div>*/}
           </div>
         </div>
         {this.props.internshipstatisticals.map((internshipstatistical, i) =>
