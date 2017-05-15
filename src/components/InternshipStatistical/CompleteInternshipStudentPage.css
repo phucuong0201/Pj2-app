@@ -1,0 +1,27 @@
+.table_name{
+     text-align: left;
+ }
+
+.search_label{
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.search_user{
+    padding-left: 0px;
+}
+
+.search_btn{
+    padding-top: 5px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.student_details{
+    text-align: left;
+}
+
+.title{
+    text-align: left;
+}

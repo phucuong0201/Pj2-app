@@ -1,0 +1,41 @@
+.cv_ava_img{
+    width: 50% !important;
+    padding-top: 20px;
+}
+
+.cv_info{
+    padding-top: 20px !important;
+}
+
+.cv_education{
+    padding-top: 20px;
+    text-align: left;
+}
+
+.cv_education_label >ul >li{
+    text-align: left;
+}
+
+.cv_contact_label{
+    text-align: left;
+}
+
+.cv_more_info_label{
+    text-align: left;
+}
+
+.cv_skill_label{
+    text-align: left;
+}
+
+.cv_skill_list{
+    width: 300px;
+}
+
+.cv_destination_label{
+    text-align: left;
+}
+
+.title{
+    text-align: left;
+}

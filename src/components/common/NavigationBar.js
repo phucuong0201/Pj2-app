@@ -25,6 +25,16 @@ const NavigationBar = React.createClass({
               </ul>
             </li>
             <li><Link to="/users">Users</Link></li>
+            <li><Link to="/listcv">List CV</Link></li>
+            <li className="dropdown">
+              <a href="#" className="dropdown-toggle" data-toggle="dropdown">Internship Statistical<b className="caret"></b></a>
+              <span className="dropdown-arrow"></span>
+              <ul className="dropdown-menu">
+                <li><Link to="/completedstudent">Completed Internship Student</Link></li>
+                <li><Link to="/interning">Interning Student</Link></li>
+                <li><Link to="/failedstudent">Failed Internship Student</Link></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </nav>
